@@ -70,21 +70,21 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-"""
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'trial',
+        'NAME': 'sdmlocal',
         'USER': 'postgres',
         'PASSWORD': 'letmein123',
-        'HOST': '185.227.109.5',
+        'HOST': 'localhost',
 
 
     }
 }
-"""
 
-DATABASES = {
+
+""" DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
@@ -94,7 +94,7 @@ DATABASES = {
 
 
     }
-}
+} """
 
 
 # Password validation
